@@ -1,0 +1,134 @@
+*{box-sizing:border-box;}
+
+/* top-nav-header -> 131c29
+    link-text -> 596573
+    background -> f4f4f6
+    active-button -> ff8901
+    more-button ->213349
+    radial-gradient -> 33597e - 0e1620
+    nov 21 -> be8842
+    nov 09 -> bc6142
+    nov 17 -> bd425e
+    */
+
+.body{
+    margin:0;
+    padding:0;
+}
+
+.more-button{
+    background: #213349;
+}
+
+.text{
+    text-align: justify;
+    hyphens:auto;
+}
+
+.button{
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding:5px 10px;
+    background:#213349;
+    color:white;
+}
+
+/*header*/
+.top-header{
+    position:relative;
+    /*border:3px solid black;*/
+    background:#131c29;
+    color:white;
+}
+
+.link-text{
+    color:#596573;
+}
+
+.top-nav-list{
+    /*border:3px solid blue;*/
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 40%; 
+    list-style:none;
+}
+
+/*.main-header{
+    background:chartreuse;
+    border:3px solid purple;
+}
+*/
+
+.main-nav-list{
+    border:3px solid white;
+    display:flex;
+    justify-content:space-evenly;
+    margin-left: 50%;
+    list-style:none;
+}
+
+.main-nav-item{
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding:10px 18px;
+    background-color:#131c29;
+}
+
+/*end header*/
+
+
+/*main*/
+.hero-section{
+    /*background:peru;*/
+    /*border:3px solid green;*/
+    padding:-30%;
+    margin-left:21%;
+}
+
+.content-section{
+    /*background:palegreen;*/
+    /*border:3px solid darkblue;*/
+    display:flex;
+    text-align:center;
+    /*margin-top:10%;*/
+    font-size:115%;
+}
+/*end main*/
+
+
+/*footer*/
+
+.main-footer{
+    /*background:lightskyblue;*/
+    /*border:2px solid orangered;*/
+    display:flex;
+    margin-top:10%;
+    text-align:center;
+    background: #0e1620;
+    color:white;
+    list-style:none;
+}
+
+.news-list-item {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.date-div{
+    text-transform: uppercase;
+    padding:9px 28px;
+    border-radius: 8px;
+    }
+    
+    .news-list-item:nth-child(1) .date-div {
+        background-color:#be8842;
+    }
+    .news-list-item:nth-child(2) .date-div {
+        background-color:#bc6642;
+    }
+    .news-list-item:nth-child(3) .date-div {
+        background-color:#bc425e;
+    }
+
+/*end footer*/
